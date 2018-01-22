@@ -1,0 +1,21 @@
+spring:
+  profiles: test
+  application:
+    name: spring-boot-family
+
+server:
+  port: 8088
+
+spring.datasource.family:
+  url: jdbc:mysql://127.0.0.1:3306/keycloak
+  username: root
+  password: liuzhe
+  driver-class-name: com.mysql.jdbc.Driver
+
+keycloak:
+  configurationFile: "classpath:keycloak.json"
+
+
+#logging:
+#  level:
+#    org: DEBUG

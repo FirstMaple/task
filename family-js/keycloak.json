@@ -1,0 +1,7 @@
+{
+  "realm": "family",
+  "auth-server-url": "http://localhost:8080/auth",
+  "ssl-required": "external",
+  "resource": "family-js",
+  "public-client": true
+}
